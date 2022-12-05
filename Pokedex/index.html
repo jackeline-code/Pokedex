@@ -23,26 +23,16 @@
     <!--A Section serve para que o brawser entenda que aqui tem um conteúdo(Basicamente)-->
     <section class="content">
         <h1>Pokedex</h1>
+        
+        <ol id="pokemonList" class="pokemons"></ol>
 
-        <ol id="pokemonList" class="pokemons">
-            <li class="pokemon">
-                <span class="numero">#001</span>
-                <span class="nome">Bulbasaur</span>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
 
-                <div class="detalhes">
-
-                    <ol class="elementos">
-                        <li>Grass</li>
-                        <li>Poison</li>
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-                </div>                
-            </li>             
-
-        </ol>
     </section>
-
 
     
     <!--importação dos códigos JavaScript-->
